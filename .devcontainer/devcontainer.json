@@ -1,16 +1,18 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.177.0/containers
 {
-	"name": "Node.js & TypeScript",
+	"name": "TensorFlow GPU",
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
-	"runArgs": ["--gpu all"],
+	"runArgs": ["--gpus=all"],
 	"settings": { 
-		"terminal.integrated.shell.linux": "/bin/bash"
+		"terminal.integrated.profiles.linux": {
+			"bash": {
+				"path": "bash"
+			}
+		}
 	},
-	"extensions": [
-		"dbaeumer.vscode-eslint"
-	],
+	"extensions": [],
 	// "remoteUser": "tfuser"
 }
