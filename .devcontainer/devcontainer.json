@@ -6,13 +6,5 @@
 		"dockerfile": "Dockerfile"
 	},
 	"runArgs": ["--gpus=all"],
-	"settings": { 
-		"terminal.integrated.profiles.linux": {
-			"bash": {
-				"path": "bash"
-			}
-		}
-	},
-	"extensions": [],
-	// "remoteUser": "tfuser"
+	"remoteUser": "tfuser"
 }
