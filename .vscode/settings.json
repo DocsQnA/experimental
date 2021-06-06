@@ -1,0 +1,11 @@
+{
+    "python.pythonPath": "/usr/local/bin/python",
+    "nvidia-smi-plus.view.gpuItems": [
+        "memory_total",
+        "memory_free",
+        "memory_used_percent",
+        "gpu_util",
+        "fan_speed",
+        "gpu_temp"
+    ]
+}
