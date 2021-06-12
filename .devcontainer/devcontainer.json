@@ -15,5 +15,5 @@
 		"ms-toolsai.jupyter",
 		"rsip-vision.nvidia-smi-plus"
 	],
-	"postCreateCommand": "python3 -m pip install -r requirements.txt"
+	"postStartCommand": "python3 -m pip install -r requirements.txt"
 }
