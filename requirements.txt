@@ -121,3 +121,4 @@ Werkzeug==2.0.0
 widgetsnbextension==3.5.1
 wrapt==1.12.1
 zipp==3.4.1
+datasets==1.8.0
