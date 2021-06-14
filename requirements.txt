@@ -123,3 +123,4 @@ wrapt==1.12.1
 zipp==3.4.1
 datasets==1.8.0
 PyGithub==1.55
+beautifulsoup4==4.9.3
